@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEPHORA</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        .main{
+            background-color: rgb(249, 161, 191);
+            text-align: center;
+            padding: 22px;
+        }
+        .main>a{
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+        }
+        .head{
+            display: flex;
+            gap: 80px;
+            justify-content: center;
+        }
+        .head>input{
+            height: 20px;
+            width: 450px;
+            border-radius: 15px;
+            margin-top: 20px;
+            padding: 5px;
+        }
+        .btn{
+            margin-top: 23px;
+        }
+        .btn>a{
+            text-decoration: none;
+            color: black;
+            font-size: 17px;
+        }
+        .nav{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background: #000;
+            padding: 15px;
+            margin-top: 30px;
+        }
+     .butn>a{
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+     }
+     .crd{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+     }
+     .clmn{
+        margin-left: 10px;
+        margin: auto;
+        margin-top: 10px;
+        /* background-color:rgb(45, 14, 74) */
+     }
+        .clmn>img{
+            background: #000;
+        }
+        
+     .clmn>h3{
+        color: white;
+     }
+     .clmn>img{
+        width: 500px;
+        
+     }
+     .clmn1{
+       color: white;
+     }
+     .clmn1>a{
+        text-decoration: none;
+        color: white;
+     }
+     .clmn1{
+        padding: 8px;
+        margin-top: -4px;
+     }
+    
+     .clmn>p{
+        font-weight: bolder;
+     }
+
+     .clmn:nth-child(1) {
+        background-color: rgb(43, 26, 59);
+    }
+    .clmn:nth-child(2) {
+        background-color:rgb(218, 179, 145);
+    }
+    .clmn:nth-child(3) {
+        background-color:rgb(138, 65, 100);
+    }
+     
+.grd{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    padding: 120px;
+    gap: 10px;
+    text-align: center;
+    row-gap: 80px;
+}
+.bx{
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, .13), 0 1px 2px 0 rgba(0, 0, 0, .11);
+}
+.txt{
+    padding: 5px;
+}
+
+.txt p:nth-child(1){
+    font-size: 13px;
+    font-weight: bold;
+}
+.bx img:nth-child(3){
+    height: 20px;
+}
+.he{
+    margin-left: 150px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: -100px;
+    margin-top: 50px;
+}
+.sec{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+}
+.sec_txt{
+    background: rgb(123, 176, 186);
+    padding: 10px;
+    margin-top:-5px ;
+}
+.sec_txt>h3{font-size: 20px;}
+.btm{
+    margin-top: 66px;
+    text-align: center;
+    font-size: 16px;
+}
+.btm>span>p> a{
+    color: black;
+    font-weight: bold;
+}
+.footer{
+    background: #000;
+    padding: 80px;
+}
+.flx{
+    display: flex;    
+    justify-content: space-around;
+    
+}
+.fut>a{text-decoration: none;
+    color: white;
+
+}
+.line{
+    
+    border: 1px solid white;
+    margin-top: 30px;
+}
+.greed{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 100px;
+    color: white;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+}
+.gree>p> img{
+    width: 20px;
+    height: 15px;
+}
+.gree :nth-child(1){
+    font-weight: bold;
+}
+.end{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.imgg{
+    margin-top: 20px;
+}
+.imgg>img{
+    height: 35px;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <a href="#"><b>SALE!</b> Get Select Sephora Collection for $10 & under.  While supplies last <b>SHOP NOW</b></a>
+    </div>
+    <div class="head">
+        <h2>S E P H O R A</h2>
+        <input type="text" placeholder="Search">
+        <div class="btn">
+          <a href="#">Stores & Services</a>
+        </div>
+        <div class="btn">
+            <a href="#">Community</a>
+        </div>
+        <div class="btn">
+        <a href="#">Sign In</a>
+        </div>
+    </div>
+    <div class="nav">
+    <div class="butn">
+       <a href="#">New</a>
+    </div>
+    <div class="butn">
+        <a href="#">Brands</a>
+    </div>
+    <div class="butn">
+        <a href="#">Makeup</a>
+    </div>
+    <div class="butn">
+        <a href="#">Skincare</a>
+    </div>
+    <div class="butn">
+        <a href="#">Hair</a>
+    </div>
+    <div class="butn">
+        <a href="#">Fragrance</a>
+    </div>
+    <div class="butn">
+        <a href="#">Tools & Brushes</a>
+    </div>
+    <div class="butn">
+        <a href="#">Bath & Body</a>
+    </div>
+    <div class="butn">
+        <a href="#">Mini Size</a>
+    </div>
+    <div class="butn">
+        <a href="#">Gifts & Gift Cards</a>
+    </div>
+    <div class="butn">
+        <a href="#">Beauty Under $20</a>
+    </div>
+    <div class="butn">
+        <a href="#">Sale & Offers</a>
+    </div>
+    </div>
+
+    <div class="crd">
+        <div class="clmn">
+            <img src="https://www.sephora.com/contentimages/homepage/031524/2024-sse-bundle-c-site-desktop-mobile-rwd-hero-banner-insider-us-can-final-image-only-2000x2000.jpeg?imwidth=545" alt="">
+            <div class="clmn1">
+                <h3>Major Beauty Savings!</h3>
+                <a href="#">join our free loyalty program to save. Ends 4/15</a>
+                <p>JOIN BEAUTY INSIDER</p>
+            </div>
+        </div>
+        <div class="clmn">
+            <img src="https://www.sephora.com/contentimages/2024-april-skin-story-site-desktop-mobile-app-home-page-rwd-hero-banner-v3-pores-acne-1200x800-us-2935.jpg?imwidth=545" alt="">
+            <div class="clmn1">
+                <h3>Fight Breakouts Fast</h3>
+                <a href="#">with powerful formulas for clearer-looking skin.</a>
+                <p>SHOP NOW</p>
+            </div>
+        </div>
+        <div class="clmn">
+            <img src="https://www.sephora.com/contentimages/2024-april-skin-story-site-desktop-mobile-app-home-page-rwd-hero-banner-v2-plumping-1200x800-us-can-2833.jpg?imwidth=545" alt="">
+            <div class="clmn1">
+                <h3>Visibly Plump Fast</h3>
+                <a href="#">With powerful Formulas For bouncy,Youthful-looking Skin.</a>
+                <p>SHOP NOW</p>
+            </div>
+        </div>
+    </div>
+    <div class="he">
+        <p>Chosen For You</p>
+    </div>
+
+    <div class="grd">
+        <div class="bx">
+            <img src="https://www.sephora.com/productimages/sku/s2495497-main-zoom.jpg?imwidth=122" alt="">
+            <div class="txt">
+            <p>Summer Fridays</p>
+            <p>Lip Butter Balm for Hyration & Shine</p>
+            <p>$24.00</p>
+        </div>
+        </div>
+        <div class="bx">
+            <img src="https://www.sephora.com/productimages/sku/s2742567-main-zoom.jpg?imwidth=122" alt="">
+            <div class="txt">
+                <p>Summer Fridays</p>
+                <p>Lip Butter Balm for Hyration & Shine</p>
+                <p>$24.00</p>
+            </div>
+        </div>
+        <div class="bx">
+            <img src="https://www.sephora.com/productimages/sku/s2748333-main-zoom.jpg?imwidth=122" alt="">
+            <div class="txt">
+                <p>Summer Fridays</p>
+                <p>Lip Butter Balm for Hyration & Shine</p>
+                <p>$24.00</p>
+            </div>
+        </div>
+        <div class="bx">
+            <img src="https://www.sephora.com/productimages/sku/s2683464-main-zoom.jpg?imwidth=122" alt="">
+            <div class="txt">
+                <p>Summer Fridays</p>
+                <p>Lip Butter Balm for Hyration & Shine</p>
+                <p>$24.00</p>
+            </div>
+        </div>
+        <div class="bx">
+            <img src="https://www.sephora.com/productimages/sku/s2743060-main-zoom.jpg?imwidth=122" alt="">
+            <div class="txt">
+                <p>Summer Fridays</p>
+                <p>Lip Butter Balm for Hyration & Shine</p>
+                <p>$24.00</p>
+            </div>
+        </div>
+        <div class="bx">
+            <img height="150px" src="https://www.sephora.com/productimages/sku/s2556744-main-zoom.jpg?imwidth=166" alt="">
+            <div class="txt">
+                <p>Summer Fridays</p>
+                <p>Lip Butter Balm for Hyration & Shine</p>
+                <p>$24.00</p>
+            </div>
+        </div>
+
+
+        
+        <div class="bx">
+            <img src="https://www.sephora.com/productimages/sku/s2762045-main-zoom.jpg?imwidth=122" alt="">
+            <div class="txt">
+                <p>Summer Fridays</p>
+                <p>Lip Butter Balm for Hyration & Shine</p>
+                <p>$24.00</p>
+            </div>
+        </div>
+        <div class="bx">
+            <img src="https://www.sephora.com/productimages/sku/s2762045-main-zoom.jpg?imwidth=122" alt="">
+            <div class="txt">
+                <p>Summer Fridays</p>
+                <p>Lip Butter Balm for Hyration & Shine</p>
+                <p>$24.00</p>
+            </div>
+        </div>
+        <div class="bx">
+            <img src="https://www.sephora.com/productimages/sku/s2748333-main-zoom.jpg?imwidth=122" alt="">
+            <div class="txt">
+                <p>Summer Fridays</p>
+                <p>Lip Butter Balm for Hyration & Shine</p>
+                <p>$24.00</p>
+            </div>
+        </div>
+        <div class="bx">
+            <img src="https://www.sephora.com/productimages/sku/s2683464-main-zoom.jpg?imwidth=122" alt="">
+            <div class="txt">
+                <p>Summer Fridays</p>
+                <p>Lip Butter Balm for Hyration & Shine</p>
+                <p>$24.00</p>
+            </div>
+        </div>
+        <div class="bx">
+            <img src="https://www.sephora.com/productimages/sku/s2745289-main-zoom.jpg?imwidth=122" alt="">
+            <div class="txt">
+                <p>Summer Fridays</p>
+                <p>Lip Butter Balm for Hyration & Shine</p>
+                <p>$24.00</p>
+            </div>
+        </div>
+        <div class="bx">
+            <img height="150px" src="https://www.sephora.com/productimages/sku/s2643674-main-zoom.jpg?imwidth=166" alt="">
+            <div class="txt">
+                <p>Summer Fridays</p>
+                <p>Lip Butter Balm for Hyration & Shine</p>
+                <p>$24.00</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="sec">
+        <div class="sec_img"><img src="https://www.sephora.com/contentimages/homepage/041624/clean%20test.JPG?imwidth=400" alt="">
+        <div class="sec_txt">
+            <h3>Beauty on Demand</h3>
+            <p>Fast and easy options that work for you</p>
+            <p>Learn More</p>
+        </div>
+        </div>
+
+        <div class="sec_img"><img src="https://www.sephora.com/contentimages/2023-06-02-RWD-homepage-site-desktop-mobile-home-page-marketing-banner-800x534-klarna-release-us.jpg?imwidth=400" alt="">
+            <div class="sec_txt">
+                <h3>Beauty on Demand</h3>
+                <p>Fast and easy options that work for you</p>
+                <p>Learn More</p>
+            </div>
+        </div>
+        <div class="sec_img"><img src="https://www.sephora.com/contentimages/2023-06-02-RWD-homepage-site-desktop-mobile-home-page-marketing-banner-800x534-beauty-on-demand-release.jpg?imwidth=400" alt="">
+            <div class="sec_txt">
+                <h3>Beauty on Demand</h3>
+                <p>Fast and easy options that work for you</p>
+                <p>Learn More</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="btm">
+        <span><p>Our <a href="#">Site Terms of Use</a> have been updated. Click <a href="#">here</a> to read them </p>
+        </span>
+    </div>
+
+    <div class="footer">
+        <div class="flx">
+    <div class="fut">
+    <a href="#">Find a store</a></div>
+    <div class="fut">
+    <a href="#">Cutomer Service</a></div>
+    <div class="fut">
+    <a href="#">Get in the App</a></div>
+    <div class="fut">
+    <a href="#">Get Sephora Text Alerts</a></div>
+    <div class="fut">
+    <a href="#">Sephora Credit Card Program</a></div>
+</div>
+<div class="line">
+    </div>
+    <div class="greed">
+        <div class="gree">
+            <p>About Sephora</p>
+            <p>Careers</p>
+            <p>About Sephora</p>
+            <p>Careers</p>
+            <p>About Sephora</p>
+            <p>Careers</p>
+            <p>About Sephora</p>
+            <p>Careers</p>
+            <p>About Sephora</p>
+            <p>Careers</p>
+            <p>About Sephora</p>
+            <p>Careers</p>
+        </div>
+        <div class="gree">
+            <p>About Sephora</p>
+            <p>Careers</p>
+            <p>About Sephora</p>
+            <p>Careers</p>
+            <p>About Sephora</p>
+            <p>Careers</p>
+            <p>About Sephora</p>
+            <p>Careers</p>
+            <p>About Sephora</p>
+            <p>Careers</p>
+            <p>About Sephora</p>
+            <p>Careers</p>
+        </div>
+        <div class="gree">
+            <p>About Sephora</p>
+            <p>Careers</p>
+            <p>About Sephora</p>
+            <p>Careers</p>
+            <p>About Sephora</p>
+            <p>Careers</p>
+            <p>About Sephora</p>
+            <p>Careers</p>
+            <p>About Sephora</p>
+            <p>Careers</p>
+            <p>About Sephora</p>
+            <p>Careers</p>
+        </div>
+        <div class="gree">
+            <p> <img src="https://www.sephora.com/img/ufe/flags/us.svg" alt=""> United States - English</p>
+            <p> <img src="https://www.sephora.com/img/ufe/flags/ca.svg" alt=""> Canada - English</p>
+            <p> <img src="https://www.sephora.com/img/ufe/flags/ca.svg" alt=""> Canada - Francis</p>
+        </div>
+        <div class="gree">
+         <p>We Belong to Something Beautiful</p>
+        </div>
+    
+    </div>
+    <div class="line">
+    </div>
+    <div class="end">
+        <p>© 2024 Sephora USA, Inc. All rights reserved. <br> Privacy Policy Terms of Use Accessibility Sitemap Your Privacy Choices<br>1-877-737-4672    TTY: 1-888-866-9845</p>
+    <div class="imgg">
+        <img src="https://www.sephora.com/img/ufe/icons/instagram-ko.svg">
+        <img src="https://www.sephora.com/img/ufe/icons/facebook-ko.svg">
+        <img src="https://www.sephora.com/img/ufe/icons/twitter-ko.svg">
+        <img src="https://www.sephora.com/img/ufe/icons/youtube-ko.svg">
+        <img src="https://www.sephora.com/img/ufe/icons/pinterest-ko.svg">
+        <img src="https://www.sephora.com/img/ufe/icons/snapchat-ko.svg">
+        <img src="https://www.sephora.com/img/ufe/icons/tiktok-ko.svg">
+
+    </div>
+    </div>
+</body>
+</html>
